@@ -1,0 +1,66 @@
+.left-login {
+  background-color: #000 !important;
+  padding: 150px !important;
+}
+.apply-loan,
+.qualifies {
+  font-weight: 300;
+}
+.apply-loan span {
+  color: #52d627 !important;
+}
+.login-title {
+  color: #fff !important;
+}
+.image-header {
+  width: 100%;
+}
+.double-img {
+  width: 50% !important;
+}
+.footer-text-form {
+  color: #fff !important;
+}
+.twittes {
+  color: #000;
+}
+.right-login {
+  background-color: #fff !important;
+  padding: 35px !important;
+  color: #000;
+}
+.forms input,
+.forms textarea {
+  border-radius: 26px;
+  margin-bottom: 2rem;
+  padding: 15px;
+}
+.login-form {
+  margin: auto !important;
+}
+.forgot-password {
+  text-decoration: none;
+  color: #0a87ed !important;
+}
+.signup-link {
+  color: #52d627 !important;
+  text-decoration: none !important;
+}
+.login-button {
+  background-color: #52d627 !important;
+  border: 1px solid #52d627 !;
+  color: #000 !important;
+  width: 100% !important;
+  border-radius: 23.71px !important;
+  border-color: #52d627 !important;
+}
+
+@media (max-width: 900px) {
+  .left-login {
+    background-color: #000 !important;
+    padding: 30px !important;
+  }
+  .double-img {
+    width: 47% !important;
+  }
+}
