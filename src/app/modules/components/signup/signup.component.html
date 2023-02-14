@@ -1,1 +1,98 @@
-<p>signup works!</p>
+<div class="app">
+  <div
+    class="col-sm-12 d-flex flex-sm-row flex-column align-items-center vh-100"
+  >
+    <div
+      class="col-sm-6 d-flex flex-sm-row flex-column left-login align-items-center vh-100"
+    >
+      <div class="col-sm-12">
+        <h1 class="mt-5 apply-loan login-title">
+          Closer to quick<span>payouts</span>
+        </h1>
+        <div class="">
+          <div class="">
+            <div class="">
+              <h4 class="mt-5 mb-5 qualifies login-title">
+                Let's get you startedwith our easy sign up process
+              </h4>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 mt-5 align-items-center d-flex">
+          <img
+            class="image-header double-img"
+            src="assets/images/signup1.png"
+            alt=""
+          />
+          <img
+            class="image-header mt-5 ms-4 double-img"
+            src="assets/images/signup2.png"
+            alt=""
+          />
+        </div>
+        <div
+          class="col-sm-12 d-flex flex-sm-row flex-column align-items-center mt-5"
+        >
+          <img src="assets/images/login-logo.png" alt="" class="float-start" />
+          <div class="float-end col-sm-12 text-end footer-text-form">
+            &copy; 2022 Qualis Digital Loans. All rights reserved.
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="col-sm-6 right-login d-flex flex-column align-items-center forms"
+    >
+      <div class="col-sm-6 login-form">
+        <div class="col-sm-12 mb-5">
+          <h2 class="mb-5 twittes">Create an account</h2>
+        </div>
+        <div class="col-sm-12">
+          <label htmlFor="name">Name</label>
+          <input type="text" name="name" id="name" class="form-control" />
+        </div>
+        <div class="col-sm-12">
+          <label htmlFor="email">E-mail</label>
+          <input
+            type="text"
+            name="email"
+            id=""
+            class="form-control"
+            placeholder="email@email.com or q-12345"
+          />
+        </div>
+        <div class="col-sm-12">
+          <label htmlFor="password">Password</label>
+          <input
+            type="password"
+            name="password"
+            id="password"
+            class="form-control"
+          />
+        </div>
+        <div class="col-sm-12">
+          <label htmlFor="password">Password</label>
+          <input
+            type="password"
+            name="password"
+            id=""
+            class="form-control"
+            placeholder="password"
+          />
+          <div class="col-sm-12">
+            <a class="forgot-password" [routerLink]="['/home']"
+              >Forgot password?</a
+            >
+          </div>
+        </div>
+        <div class="col-sm-12 mt-5">
+          <button class="btn btn-primary login-button">Create Account</button>
+          <div class="mt-3">
+            Already have an account?
+            <a class="signup-link" [routerLink]="['/login']">Log In</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

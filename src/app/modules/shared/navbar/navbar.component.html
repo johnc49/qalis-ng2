@@ -1,1 +1,109 @@
-<p>navbar works!</p>
+<nav
+  class="navbar navbar-expand-lg navbar-dark bg-gradient-green z-index-3 py-3"
+>
+  <div class="container">
+    <a
+      [routerLink]="['/home']"
+      routerLinkActive="active-li"
+      class="navbar-brand text-white logo"
+    >
+      <img
+        height="100%"
+        width="100%"
+        src="assets/images/qualis-logo.png"
+        alt=""
+      />
+    </a>
+    <button
+      class="navbar-toggler shadow-none ms-2"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navigation"
+      aria-controls="navigation"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon mt-2">
+        <span class="navbar-toggler-bar bar1"></span>
+        <span class="navbar-toggler-bar bar2"></span>
+        <span class="navbar-toggler-bar bar3"></span>
+      </span>
+    </button>
+    <div
+      class="collapse navbar-collapse w-100 pt-3 pb-2 py-lg-0"
+      id="navigation"
+    >
+      <ul class="navbar-nav navbar-nav-hover mx-auto">
+        <li class="nav-item mx-1 nav-item-active">
+          <a
+            [routerLink]="['/home']"
+            routerLinkActive="active-li"
+            class="nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center"
+            role="button"
+          >
+            Home
+          </a>
+        </li>
+        <li class="nav-item mx-1">
+          <a
+            [routerLink]="['/about-us']"
+            routerLinkActive="active-li"
+            class="nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center"
+            role="button"
+          >
+            About Us
+          </a>
+        </li>
+        <li class="nav-item mx-1">
+          <a
+            [routerLink]="['/loan']"
+            routerLinkActive="active-li"
+            class="nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center"
+            role="button"
+          >
+            Get a loan
+          </a>
+        </li>
+        <li class="nav-item mx-1">
+          <a
+            [routerLink]="['/community']"
+            routerLinkActive="active-li"
+            class="nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center"
+            role="button"
+          >
+            Community
+          </a>
+        </li>
+        <li class="nav-item mx-1">
+          <a
+            [routerLink]="['/contact']"
+            routerLinkActive="active-li"
+            class="nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center"
+          >
+            Contact
+          </a>
+        </li>
+        <li class="nav-item mx-1">
+          <a
+            [routerLink]="['/signup']"
+            routerLinkActive="active-li"
+            class="nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center"
+          >
+            <button class="btn btn-primary btn-sm sign-up-btn">
+              Sign up <i class="mdi mdi-arrow-right"></i>
+            </button>
+          </a>
+        </li>
+        <li class="nav-item mx-1">
+          <a
+            [routerLink]="['/login']"
+            routerLinkActive="active-li"
+            class="nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center"
+          >
+            Login
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>

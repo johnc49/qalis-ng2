@@ -1,0 +1,50 @@
+.page-header {
+  background-color: rgba(0, 0, 0, 1);
+  padding-bottom: 40px;
+}
+.header-title {
+  color: #fff;
+  width: 100%;
+  margin-bottom: 5em !important;
+}
+.header-title p {
+  font-size: 14px;
+  margin-top: 10px;
+  font-weight: 400;
+}
+.header-title span {
+  color: #52d627;
+}
+.image-header {
+  width: 100%;
+}
+.header-text p {
+  color: #fff;
+  width: 100%;
+}
+.forms input,
+.forms textarea {
+  border-radius: 26px;
+  margin-bottom: 2rem;
+  padding: 15px;
+}
+.sign-up-btn,
+.contact-btn {
+  background-color: #52d627 !important;
+  border: 1px solid #707070 !important;
+  border-radius: 23.71px !important;
+  color: #000 !important;
+}
+.contact-icons {
+  color: #000;
+}
+.contact-icons span {
+  margin: 25px;
+}
+.contactIcon {
+  color: #52d627 !important;
+  font-size: 40px;
+}
+.twittes {
+  color: #000;
+}

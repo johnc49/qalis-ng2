@@ -1,0 +1,60 @@
+.page-header {
+  background-color: rgba(0, 0, 0, 1);
+  padding-bottom: 40px;
+}
+.header-title {
+  color: #fff;
+  width: 100%;
+  margin-bottom: 5em !important;
+}
+.header-title p {
+  font-size: 14px;
+  margin-top: 10px;
+  font-weight: 400;
+}
+.header-title span {
+  color: #52d627;
+}
+.image-header {
+  width: 100%;
+}
+.header-text p {
+  color: #fff;
+  width: 100%;
+}
+.aboutImage {
+  width: 100%;
+}
+.about-text-1 {
+  background-color: #ff6700;
+  padding: 44px;
+}
+.other {
+  position: relative;
+}
+.other h1 {
+  width: 50%;
+  margin: auto;
+  color: #000 !important;
+}
+.other-btn {
+  float: right;
+}
+.other-btn,
+.other-btn-x {
+  background-color: #000 !important;
+  border: 1px solid #000 !important;
+  border-radius: 23.71px !important;
+}
+.green-section {
+  background-color: #a8dd94 !important;
+  padding: 64px !important;
+  color: #000 !important;
+}
+.green-section p {
+  color: #000 !important;
+}
+.about-xs p,
+.about-xs h1 {
+  color: #000 !important;
+}

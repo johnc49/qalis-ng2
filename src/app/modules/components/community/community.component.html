@@ -1,1 +1,127 @@
-<p>community works!</p>
+<div class="app">
+  <header>
+    <app-navbar></app-navbar>
+    <div class="page-header">
+      <div class="container">
+        <div class="row">
+          <div
+            class="col-sm-5 header-text align-items-center mt-5 d-flex flex-sm-row flex-column"
+          >
+            <h1 class="header-title">
+              A <span>community</span><br />
+              that gets things <br />
+              done quick
+              <p>
+                Contact our support team, email us or whatsapp and we will help
+                you achieve more today.
+              </p>
+            </h1>
+          </div>
+          <div
+            class="col-sm-7 mt-5 align-items-center d-flex flex-sm-row flex-column"
+          >
+            <img
+              class="image-header"
+              src="assets/images/community.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <section class="py-9 mt-5">
+    <div class="container">
+      <div class="row">
+        <h3 class="mt-5 mb-5 twittes">Stories from our community.</h3>
+        <div
+          class="col-sm-12 d-flex flex-sm-row flex-column align-items-center"
+        >
+          <div class="col-sm-4 com-img-container">
+            <a [routerLink]="['/story']">
+              <h3>
+                Payday loans <br />
+                anyday
+              </h3>
+            </a>
+            <img class="com" src="assets/images/com-a.png" alt="" />
+          </div>
+          <div class="col-sm-4 ms-3 me-3 com-img-container">
+            <a [routerLink]="['/story']">
+              <h3>Lumwana mine <br />& us</h3>
+            </a>
+            <img class="com" src="assets/images/com-b.png" alt="" />
+          </div>
+          <div class="col-sm-4 com-img-container">
+            <a [routerLink]="['/story']">
+              <h3>
+                Focus on <br />
+                what matters
+              </h3>
+            </a>
+            <img class="com" src="assets/images/com-c.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="py-9 twittes">
+    <div class="container mt-5">
+      <div class="row mt-5">
+        <h2 class="mb-5 twittes">Recent Tweets</h2>
+        <div
+          class="col-sm-12 tweets d-flex flex-sm-row flex-column align-items-center"
+        >
+          <div class="col-sm-4 tweets-wrapper">
+            <img class="tweets-img" src="assets/images/tweets.png" alt="" />
+          </div>
+          <div class="col-sm-3 ms-5">
+            <b><p>@quickerpayouts</p></b>
+            <p class="loans-text">
+              Qualis Digital Loans will never ask for your passwords, pins and
+              any other confidential information. Any email, message or
+              correspondence without an official Qualis Digital loans email
+              should be reported immediately.
+            </p>
+          </div>
+          <div class="col-sm-3 ms-5">
+            <div>
+              <p class="loans-text">
+                If you suspect any activity suspect to be fraudulent kindly
+                contact the following numbers.
+              </p>
+            </div>
+            <button class="btn btn-primary other-btn-x">
+              Report Fraud <i class="mdi mdi-arrow-right"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="py-9 mt-5">
+    <div class="container mt-5">
+      <div class="row mt-5">
+        <div
+          class="mt-5 text-center d-flex flex-column align-items-center justify-content-center"
+        >
+          <h1 class="twittes">Follow us;</h1>
+          <div class="col-sm-9 mt-5 contact-icons">
+            <span class="ms-5"
+              ><i class="mdi mdi-twitter contactIcon"></i> @quickerpayouts</span
+            >
+            <span class="ms-5"
+              ><i class="mdi mdi-facebook contactIcon"></i> Qualis Digital
+              Loans</span
+            >
+            <span class="ms-5"
+              ><i class="mdi mdi-whatsapp contactIcon"></i> +260 971 234
+              567</span
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <app-footer></app-footer>
+</div>

@@ -1,1 +1,90 @@
-<p>story works!</p>
+<div class="app">
+  <header>
+    <app-navbar></app-navbar>
+  </header>
+  <section class="py-9 mt-5">
+    <div class="container mt-5">
+      <div class="row mt-5">
+        <div class="col-sm-12 mt-5">
+          <h1 class="mt-5 mb-5 twittes">Payday laons anyday</h1>
+          <img class="LoanImg" src="assets/images/story-details.png" alt="" />
+          <p class="loans-text mt-5">
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas
+            porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies,
+            purus lectus malesuada libero, sit amet commodo magna eros quis
+            urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.
+            Pellentesque habitant morbi tristique senectus et netus et malesuada
+            fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et
+            orci. Aenean nec lorem. In porttitor. Donec laoreet nonummy augue.
+            Suspendisse dui purus, scelerisque at, vulputate vitae, pretium
+            mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut
+            nonummy. Fusce aliquet pede non pede. Suspendisse dapibus lorem
+            pellentesque magna. Integer nulla. Donec blandit feugiat ligula.
+            Donec hendrerit, felis et imperdiet euismod, purus ipsum pretium
+            metus, in lacinia nulla nisl eget sapien. Donec ut est in lectus
+            consequat consequat.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="py-9 mt-5">
+    <div class="container">
+      <div class="row">
+        <h3 class="mt-5 mb-5 twittes">Stories from our community.</h3>
+        <div
+          class="col-sm-12 d-flex flex-sm-row flex-column align-items-center"
+        >
+          <div class="col-sm-4 com-img-container">
+            <a [routerLink]="['/story']">
+              <h3>
+                Credit score <br />
+                Know how
+              </h3>
+            </a>
+            <img class="com" src="assets/images/com-a.png" alt="" />
+          </div>
+          <div class="col-sm-4 ms-3 me-3 com-img-container">
+            <a [routerLink]="['/story']">
+              <h3>Lumwana mine <br />& us</h3>
+            </a>
+            <img class="com" src="assets/images/com-b.png" alt="" />
+          </div>
+          <div class="col-sm-4 com-img-container">
+            <a [routerLink]="['/story']">
+              <h3>
+                Focus on <br />
+                what matters
+              </h3>
+            </a>
+            <img class="com" src="assets/images/com-c.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-9 mt-5">
+    <div class="container mt-5">
+      <div class="row mt-5">
+        <div class="mt-5 text-center d-flex flex-column align-items-center">
+          <h1 class="twittes">Follow us;</h1>
+          <div class="col-sm-9 mt-5 contact-icons">
+            <span class="ms-5"
+              ><i class="mdi mdi-twitter contactIcon"></i> @quickerpayouts</span
+            >
+            <span class="ms-5"
+              ><i class="mdi mdi-facebook contactIcon"></i> Qualis Digital
+              Loans</span
+            >
+            <span class="ms-5"
+              ><i class="mdi mdi-whatsapp contactIcon"></i> +260 971 234
+              567</span
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <app-footer></app-footer>
+</div>

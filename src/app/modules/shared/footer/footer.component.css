@@ -1,0 +1,28 @@
+.footer {
+  background-color: #000 !important;
+  min-height: 20px;
+}
+.footer-link {
+  list-style: none;
+}
+.footer-link a {
+  text-decoration: none;
+  color: #fff !important;
+}
+.contact-link-footer {
+  text-decoration: none;
+  color: #fff;
+}
+.footer-text-form {
+  color: #fff !important;
+}
+.phone-link {
+  margin-left: 10px;
+  color: #52d627;
+}
+.botton-social span {
+  color: #52d627;
+}
+.footer div {
+  color: #707070 !important;
+}
